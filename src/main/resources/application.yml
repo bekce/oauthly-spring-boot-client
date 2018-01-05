@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: vpNS2x3QTVSxjTuWUrY3
+      clientSecret: 0JPSlNiGKRmcgqidu77s
+      accessTokenUri: http://localhost:9000/oauth/token
+      userAuthorizationUri: http://localhost:9000/oauth/authorize
+      tokenName: access_token
+      authenticationScheme: header
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: http://localhost:9000/api/me
